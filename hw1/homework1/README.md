@@ -1,5 +1,3 @@
-# GAMES202 homework0
-
 ## Usage
 
 ### For Visual Studio Code
