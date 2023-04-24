@@ -207,7 +207,7 @@ void main(void) {
   float filterRadiusUV = FILTER_RADIUS / SHADOW_MAP_SIZE;
 
   // 硬阴影无PCF，最后参数传0
-  //visibility = useShadowMap(uShadowMap, vec4(shadowCoord, 1.0), nonePCFBiasC, 0.);
+  //visibility = useShadowMap(uShadowMap, vec4(shadowCoord, 1.0), 0., 0.);
   //visibility = PCF(uShadowMap, vec4(shadowCoord, 1.0), pcfBiasC, filterRadiusUV);
   visibility = PCSS(uShadowMap, vec4(shadowCoord, 1.0),pcfBiasC);
 
