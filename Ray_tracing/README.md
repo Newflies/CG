@@ -1,9 +1,3 @@
-# 太极图形课S1-Ray Tracing示例程序
-
-## 背景简介
-该repo实现了一些Rendering的方法, Path tracing的具体实现参考了[Ray Tracing in One Weekend](https://raytracing.github.io/)
-
-
 ## 效果展示
 |Color only |Lambertian reflection | Blinn-Phong model |
 |:-------------------------:|:-------------------------:|:-------------------------:|
